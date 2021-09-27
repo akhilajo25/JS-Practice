@@ -24,3 +24,9 @@ const hello = () => (
 )
 
 console.log(hello())
+
+// ONE-LINE
+
+const sum_of_two = (a,b) => a+b
+
+console.log(sum_of_two(6,8))
