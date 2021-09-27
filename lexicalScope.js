@@ -24,7 +24,7 @@ function grandParent () {
     var gpName = "Harry"
     console.log(`I am from GrandParent, ${gpName}`)
     // console.log(pName) you cannot access child elements in parent, 
-    // UncaughtReference error
+    // The above console.log will give you an error UncaughtReference error
     function parent () {
 
         var pName = "John"
