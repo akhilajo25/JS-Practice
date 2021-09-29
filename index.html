@@ -15,8 +15,30 @@
     <script src="12-defaultParams.js"></script>
     <script src="13-spread.js"></script>
     <script src="14-rest.js"></script>
+    <script src="15-DestructuringArrays.js"></script>
+    <script src="16-DestructuringObjects.js"></script>
+    <script src="17-DestructuringParams.js"></script>
   </head>
   <body>
     <h2>JS Revision</h2>
+
+    <h3>Event Propogation</h3>
+    <div onclick={alert("Clicked-Division")}>
+      <p>
+        This is a clickable Paragraph
+        <button onclick={alert('Clicked')}>Click!!!</button>
+      </p>
+    </div>
+
+    <h3>Event Delegation</h3>
+    <div>
+      <ul id="category">
+        <li id="laptops">Laptops</li>
+        <li id="cameras">Cameras</li>
+        <li id="shoes">Shoes</li>
+      </ul>
+    </div>
+    <script src="18-eventdelegations.js"></script>
+    <script src="19-eventPropagation.js"></script>
   </body>
 </html>
